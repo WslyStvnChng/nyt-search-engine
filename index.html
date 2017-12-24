@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>NYT Search</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha256-m/h/cUDAhf6/iBRixTbuc8+Rg2cIETQtPcH9D3p2Kg0=" crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    </head>
+
+    <body>
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-3">New York Times Search</h1>
+            <p class="lead">NYTimes.com Search - The New York Times
+            <br>
+            Using API and AJAX forumla to find articles
+            </p>
+
+          </div>
+        </div>
+
+        <form>
+          <div class="form-group">
+            <label for="">Search Term</label>
+            <input type="text" class="" id="search-term" placeholder="Trump">
+          </div>
+          <div class="form-group">
+              <label for="">Number of records to retrieve</label>
+              <input type="text" class="" id="num-records" placeholder="5">
+          </div>
+          <div class="form-group">
+              <label for="">Start Year</label>
+              <input type="text" class="" id="start-year" placeholder="2016">
+          </div>
+          <div class="form-group">
+            <label for="">End Year</label>
+            <input type="text" class="" id="end-year" placeholder="2018">
+          </div>
+        </form>
+        <button type="button" class="btn btn-secondary" id="search">Search</button>
+        <button type="button" class="btn btn-secondary" id="clear">Clear results</button>
+
+        <div class="container">
+            <div id="results"></div>
+        </div>
+
+        <script src="./assets/javascript/search.js"></script>
+    </body>
+</html>

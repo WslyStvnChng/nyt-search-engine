@@ -1,0 +1,33 @@
+body {
+
+}
+
+h1 {
+  font-weight: bold;
+  font-family: 'Georgia', san-serif;
+  text-transform: uppercase;
+}
+
+.p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.jumbotron {
+  background-color: lightgrey;
+
+}
+
+.form-group {
+  text-align: left;
+  padding-left: 100px;
+}
+
+.btn {
+  text-align: left;
+  margin-left: 100px;
+}
